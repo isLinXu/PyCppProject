@@ -1,8 +1,8 @@
 # PyCppProject
-use Pybind11 and Cpp for Python
+Mixed programming using Python and Cpp
 ---
 
-- build Cpp for Python
+- build Cpp as Modules for Python
 
   ```shell
   cd Python
@@ -14,4 +14,23 @@ use Pybind11 and Cpp for Python
   ```shell
   python test.py
   ```
+
+- Build Cpp as Libs for Python
+
+  ```shell
+  cd build_lib_demo
+  ```
+
+  use Setup.py build Cpp source code as Python libs.
+  ```
+  pip install .
+  ```
+
+  test
+
+  ```shell
+  python test.py
+  ```
+  
+  
 
